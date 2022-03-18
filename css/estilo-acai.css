@@ -4,6 +4,7 @@ body{
 }
 
 header , footer{
+    width: 100%;
     background-color: #B987EC;
     padding: 5px 10px;
     font-weight: bold;
@@ -46,6 +47,11 @@ h2{
 .tabela_produtos ul li div{    
         display: flex;
         align-items: center;    
+}
+
+.tabela_produtos ul li div p{    
+    display: block;
+    align-items: center;    
 }
 
 .tabela_produtos img{
