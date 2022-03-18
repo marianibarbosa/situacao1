@@ -1,0 +1,53 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+header , footer{
+    background-color: #B987EC;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+}
+
+main{
+    margin: 15px 50px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #B987EC
+}
+
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    color: #B987EC;
+}
+
+.tabela_produtos div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabela_produtos ul li{
+    display: flex;
+    align-items: center;
+}
+
+.tabela_produtos ul li div{    
+        display: flex;
+        align-items: center;    
+}
+
+.tabela_produtos img{
+    height: 150px;
+}
